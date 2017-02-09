@@ -1,1 +1,15 @@
-{"name":"PerseusDictionary","version":"0.0.1","private":true,"scripts":{"start":"node node_modules/react-native/local-cli/cli.js start"}}
+{
+  "name": "PerseusDictionary",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "devDependencies": {
+    "jest-cli": "^18.1.0"
+  }
+}
