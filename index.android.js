@@ -5,5 +5,5 @@ import {
   AppRegistry,
 } from 'react-native';
 
-import Root from './App/test';
+import Root from './App/helloworld';
 AppRegistry.registerComponent('Sample', () => Root);
