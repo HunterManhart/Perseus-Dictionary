@@ -1,0 +1,3 @@
+rootProject.name = 'PerseusDictionary'
+
+include ':app'
