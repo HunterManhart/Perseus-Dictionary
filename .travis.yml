@@ -5,8 +5,8 @@ cache:
 before_install:
   - npm install
 
-before_script:
-  - npm run compile:test
+# before_script:
+#   - npm run compile:test
 
 script:
   - npm test  
